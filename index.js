@@ -8,7 +8,7 @@ bot.on('sticker', (ctx) => ctx.reply('👍'))
 bot.hears('hi', (ctx) => ctx.reply('Hey there'))
 bot.launch()
 
-console.log('test')
+console.log('jenkins test')
 
 // Enable graceful stop
 process.once('SIGINT', () => bot.stop('SIGINT'))
